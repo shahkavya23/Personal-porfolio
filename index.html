@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kavya Shah's personal portfolio showcasing projects, skills, and contact information."
+    />
+    <title>Kavya Shah | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Kavya Shah home">KS</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Kavya Shah</h1>
+          <p class="lede">
+            I build clean, thoughtful digital experiences with a focus on useful
+            interfaces, dependable execution, and details that make products feel
+            effortless.
+          </p>
+          <div class="actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Profile highlights">
+          <div>
+            <span class="metric">01</span>
+            <p>Design-minded builder</p>
+          </div>
+          <div>
+            <span class="metric">02</span>
+            <p>Product-focused projects</p>
+          </div>
+          <div>
+            <span class="metric">03</span>
+            <p>Clear, responsive web work</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects shaped around clarity and momentum.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Web App</span>
+              <span>UI</span>
+            </div>
+            <h3>Portfolio Experience</h3>
+            <p>
+              A responsive personal site that presents projects, skills, and
+              contact pathways in a compact, professional format.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Product</span>
+              <span>Frontend</span>
+            </div>
+            <h3>Interactive Dashboard</h3>
+            <p>
+              A dashboard concept for scanning key information quickly, balancing
+              visual hierarchy with practical day-to-day usability.
+            </p>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Systems</span>
+              <span>Research</span>
+            </div>
+            <h3>Process Toolkit</h3>
+            <p>
+              A structured workflow for turning ambiguous requirements into
+              scoped, testable, and user-friendly product decisions.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section split">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Practical strengths for building modern web experiences.</h2>
+        </div>
+        <ul class="skill-list">
+          <li>Frontend development</li>
+          <li>Responsive layouts</li>
+          <li>Product thinking</li>
+          <li>Interface design</li>
+          <li>Research synthesis</li>
+          <li>Clear technical communication</li>
+        </ul>
+      </section>
+
+      <section id="about" class="section about">
+        <p class="eyebrow">About</p>
+        <h2>Curious, detail-oriented, and drawn to work that feels useful.</h2>
+        <p>
+          I enjoy bringing structure to open-ended ideas: understanding what
+          people need, shaping the experience, and building something polished
+          enough to stand on its own. This portfolio is a home for that work and
+          the next projects that grow from it.
+        </p>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something sharp and useful.</h2>
+        </div>
+        <a class="button primary" href="mailto:shahkavya2307@gmail.com">Email Kavya</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Kavya Shah</span>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
